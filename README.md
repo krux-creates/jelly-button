@@ -47,7 +47,7 @@ This is a fork of exteestudio's [Venom Button](https://github.com/exteestudio/ve
 - **Jelly physics.** It plops down on load, squashes on an underdamped spring, rocks on two more, swells under a hover, dents under a press, and rings out ripples.
 - **Wet skin.** Crisp studio highlights with faint rainbow fringes, an edge that glows in the jelly's own colour where light pipes through the rim, a few sweat beads and air bubbles.
 - **Strings that carry the light.** At night they glow along their length in the flavour's colour.
-- **Halloween cursor.** The arrow is a candy corn; the hand is a black skeleton glove. Same outlines as the originals, so the strings still wrap each finger.
+- **Halloween hand.** The pointer is the normal arrow; when the jelly grabs it, it becomes a black skeleton glove. Same outline as the original hand, so the strings still wrap each finger.
 - **A pointer that sits right.** Out in the open its shadow is drawn from its own outline, tight and soft; it rises only when it comes over the jelly.
 - **Four flavours, two themes**, a tabbed Tune card in the flavour's colour, and a CSS jelly with both eyes for browsers without WebGL2. The original's no-WebGL fallback threw on load and never drew; that is fixed here.
 
@@ -95,5 +95,5 @@ CHROME_ARGS="--disable-gpu-vsync --disable-frame-rate-limit" node qa/demo.mjs   
 
 - **Original:** [Venom Button](https://github.com/exteestudio/venom-button) © 2026 exteestudio, MIT (see `LICENSE`). `qa/ref/venom.html` is an untouched copy, kept for the side-by-side tests.
 - **Font:** [Geist](https://vercel.com/font) by Vercel and basement.studio, SIL Open Font License 1.1 (`fonts/Geist-OFL.txt`).
-- **Cursor outlines:** `left_ptr` and `hand2` from the Figma Community file "Cursors" (`cursors/`), redrawn inside as a candy corn and a skeleton glove.
+- **Cursors:** `left_ptr` and `hand2` from the Figma Community file "Cursors" (`cursors/`); the hand is redrawn inside as a skeleton glove.
 - **Techniques:** smooth-min and SDF primitives after [Inigo Quilez](https://iquilezles.org/articles/).
