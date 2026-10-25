@@ -2,7 +2,7 @@
 
 A Halloween button cast in gelatin. A plump pill of pumpkin jelly with **trick or treat** suspended inside it and a gummy eyeball floating in each end. The eyes doze until your pointer comes near, then open and follow it. Jelly strings reach out and wrap your skeleton-gloved hand. Press and it squashes, the eyes go wide, and it bounces back taller before it wobbles to a stop.
 
-**[Live →](LIVE_URL)** · [Demo video (MP4)](media/demo.mp4)
+**[Live → jelly-button.vercel.app](https://jelly-button.vercel.app)** · [Demo video (MP4)](media/demo.mp4)
 
 ![Jelly strings reaching for the pointer while both eyes watch it](media/reach.png)
 

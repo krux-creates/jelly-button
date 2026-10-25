@@ -1031,7 +1031,7 @@ vec3 shadeJelly(vec2 p, vec4 g) {
 
   // at night there is little floor light to see through, so daylight scattered inside the body carries the colour
   float paleDye = smoothstep(0.08, 0.5, dot(uDye, vec3(0.3, 0.59, 0.11)));
-  col += exp(-uSig * uDens * T * 0.7) * SUN * 0.2 * (1.0 - exp(-T * 0.09)) * uDark * (1.0 - 0.85 * paleDye) * mix(1.0, 2.2, strand);
+  col += exp(-uSig * uDens * T * 0.7) * SUN * 0.2 * (1.0 - exp(-T * 0.09)) * uDark * (1.0 - 0.85 * paleDye) * mix(1.0, 1.4, strand);
 
   // glow from inside the mass, like a candle in a carved pumpkin: deepest at the core, tinted by the jelly
   // it shines up through
@@ -1074,7 +1074,7 @@ vec3 shadeJelly(vec2 p, vec4 g) {
 
   // strings carry the jelly's light along them like fibres, so at night they stay luminous in the flavour's colour
   // instead of showing the dark floor through their thin bodies
-  col += exp(-uSig * uDens * 11.0) * (SUN * 0.2 + uGlowC * uGlow * 0.45) * strand * (0.15 + 0.85 * uDark);
+  col += exp(-uSig * uDens * 16.0) * (SUN * 0.12 + uGlowC * uGlow * 0.6) * strand * (0.15 + 0.85 * uDark);
 
   // edge bloom: light piped through the thin rim comes out glowing in the jelly's own colour, so the edge of the
   // button is a luminous band of jelly rather than an outline or a pale halo
